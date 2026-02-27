@@ -67,3 +67,43 @@ h2 {
   padding: 15px;
   gap: 15px;
 }
+
+.three-columns .column {
+  flex: 1;
+}
+
+/* 3. Three unequal columns */
+.three-unequal-columns .box {
+  padding: 12px;
+  gap: 12px;
+}
+
+.three-unequal-columns .wide-box {
+  flex: 2;
+}
+
+.three-unequal-columns .column:not(.wide-box) {
+  flex: 1;
+}
+
+/* 4. Four columns and a footer */
+.four-columns-footer .box {
+  padding: 12px;
+  gap: 12px;
+}
+
+.four-columns-footer .box .top-row {
+  margin-bottom: 12px;
+}
+
+.four-columns-footer .box .footer-row {
+  margin-bottom: 0;
+}
+
+.four-columns-footer .top-row .column {
+  flex: 1;
+}
+
+.four-columns-footer .footer-row .column {
+  flex: 2;
+}
