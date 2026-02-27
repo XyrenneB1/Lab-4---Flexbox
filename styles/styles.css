@@ -31,14 +31,14 @@ p {
   font-size: 0.95em;
 }
 
-/* Styling the box class */
+/* Styling the box */
 .box {
   display: flex;
   margin-bottom: 20px;
   background-color: #add8e6;
 }
 
-/* Styling individual columns */
+/* Column styling */
 .column {
   height: 50px;
   background-color: #888;
@@ -46,24 +46,22 @@ p {
   box-sizing: border-box;
 }
 
-/* Styling common visual properties for columns */
+/* Shared column border option */
 .dark-gray-border {
   border: 2px solid #555;
 }
 
-/* 1. Two columns */
+/* Layout variations */
 .two-columns .box {
   padding: 10px;
   gap: 10px;
 }
 
-/* 2. Three columns */
 .three-columns .box {
   padding: 15px;
   gap: 15px;
 }
 
-/* 3. Three unequal columns */
 .three-unequal-columns .box {
   padding: 12px;
   gap: 12px;
@@ -73,7 +71,6 @@ p {
   flex: 2;
 }
 
-/* 4. Four columns and a footer */
 .four-columns-footer .box {
   padding: 12px;
   gap: 12px;
