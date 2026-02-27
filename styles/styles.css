@@ -19,6 +19,7 @@ h2 {
 .lab-section h2,
 .lab-section p {
   margin-bottom: 5px;
+  font-size: 0.9em;
 }
 
 /* Removing bottom margin for p tags inside lab-section */
@@ -36,6 +37,33 @@ h2 {
 /* Styling individual columns */
 .column {
   height: 50px;
+}
+
+/* Styling common visual properties for columns */
+.gray-box {
   background-color: #888;
+}
+
+.light-blue-border {
   border: 2px solid #add8e6;
+}
+
+.dark-gray-border {
+  border: 2px solid #555;
+}
+
+/* 1. Two columns */
+.two-columns .box {
+  padding: 10px;
+  gap: 10px;
+}
+
+.two-columns .column {
+  flex: 1;
+}
+
+/* 2. Three columns */
+.three-columns .box {
+  padding: 15px;
+  gap: 15px;
 }
